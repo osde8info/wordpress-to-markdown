@@ -90,6 +90,19 @@ Allowed values:
 - `year‑month‑day` - Output is organized into folders by year, then nested by month, then nested by the day of the month.
 - `none` - No date folders are created.
 
+### Truncate Filenames
+
+```
+--truncate-filenames=20
+```
+
+Maximum length for filenames (0 for no limit)
+
+Allowed values:
+
+- Any positive integer.
+
+
 ### Save images?
 
 ```
