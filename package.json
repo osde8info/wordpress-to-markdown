@@ -1,5 +1,5 @@
 {
-	"name": "wordpress-export-to-markdown",
+	"name": "wx2md",
 	"version": "3.0.4",
 	"description": "Converts a WordPress export XML file into Markdown files.",
 	"main": "app.js",
@@ -28,6 +28,6 @@
 		"xml2js": "^0.6.2"
 	},
 	"bin": {
-		"wordpress-export-to-markdown": "./app.js"
+		"wx2md": "./app.js"
 	}
 }
