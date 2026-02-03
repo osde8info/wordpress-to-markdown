@@ -21,7 +21,7 @@ You'll need:
 
 Then run this in your terminal:
 
-```
+```bash
 npx wordpress-export-to-markdown
 ```
 
@@ -31,7 +31,7 @@ The script will start with a wizard to ask you a few questions.
 
 Optionally, you can provide answers to any of these questions via command line arguments, in which case the wizard will skip asking those questions. Here's an example:
 
-```
+```bash
 npx wordpress-export-to-markdown --post-folders=false --prefix-date=true
 ```
 
@@ -39,7 +39,7 @@ The questions are given below, including a snippet for each one showing its comm
 
 ### Path to WordPress export file?
 
-```
+```text
 --input=export.xml
 ```
 
@@ -51,7 +51,7 @@ Allowed values:
 
 ### Put each post into its own folder?
 
-```
+```text
 --post-folders=true
 ```
 
@@ -64,7 +64,7 @@ Allowed values:
 
 ### Add date prefix to posts?
 
-```
+```text
 --prefix-date=false
 ```
 
@@ -77,7 +77,7 @@ Allowed values:
 
 ### Organize posts into date folders?
 
-```
+```text
 --date-folders=none
 ```
 
@@ -91,7 +91,7 @@ Allowed values:
 
 ### Save images?
 
-```
+```text
 --save-images=all
 ```
 
@@ -110,7 +110,7 @@ These are not included in the wizard, so you'll need to set them on the command 
 
 ### Use wizard?
 
-```
+```text
 --wizard=true
 ```
 
@@ -123,7 +123,7 @@ Allowed values:
 
 ### Path to output folder?
 
-```
+```text
 --output=output
 ```
 
@@ -135,7 +135,7 @@ Allowed values:
 
 ### Frontmatter fields?
 
-```
+```text
 --frontmatter-fields=title,date,categories,tags,coverImage,draft
 ```
 
@@ -147,7 +147,7 @@ Allowed values:
 
 ### Delay between image file requests?
 
-```
+```text
 --request-delay=500
 ```
 
@@ -159,7 +159,7 @@ Allowed values:
 
 ### Delay between writing markdown files?
 
-```
+```text
 --write-delay=10
 ```
 
@@ -171,7 +171,7 @@ Allowed values:
 
 ### Timezone to apply to date?
 
-```
+```text
 --timezone=utc
 ```
 
@@ -183,7 +183,7 @@ Allowed values:
 
 ### Include time with frontmatter date?
 
-```
+```text
 --include-time=false
 ```
 
@@ -196,7 +196,7 @@ Allowed values:
 
 ### Frontmatter date format string?
 
-```
+```text
 --date-format=""
 ```
 
@@ -208,7 +208,7 @@ Allowed values:
 
 ### Wrap frontmatter date in quotes?
 
-```
+```text
 --quote-date=false
 ```
 
@@ -221,7 +221,7 @@ Allowed values:
 
 ### Use strict SSL?
 
-```
+```text
 --strict-ssl=true
 ```
 
