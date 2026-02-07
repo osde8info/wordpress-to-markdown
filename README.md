@@ -85,14 +85,14 @@ If and how output is organized into folders based on date.  This won't happen fo
 
 Allowed values:
 
-- `year` - Output is organized into folders by year. 
+- `year` - Output is organized into folders by year.
 - `year‑month` - Output is organized into folders by year, then into nested folders by month.
 - `year‑month‑day` - Output is organized into folders by year, then nested by month, then nested by the day of the month.
 - `none` - No date folders are created.
 
 ### Truncate Filenames
 
-```
+```text
 --truncate-filenames=20
 ```
 
@@ -101,7 +101,6 @@ Maximum length for filenames (0 for no limit)
 Allowed values:
 
 - Any positive integer.
-
 
 ### Save images?
 
